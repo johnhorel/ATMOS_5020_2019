@@ -1,13 +1,13 @@
 <img src='./images/atmos5020_logo2.png' width=150px align='right' style='padding-left:30px'>
 
-**Fall 2018**
+**Fall 2019**
 
 # ATMOS 5020
-Code and other information for ATMOS 5020, Environmental Programming, during Fall 2018
+Code and other information for ATMOS 5020, Environmental Programming, during Fall 2019
 
 # Download this repository
 
-    git clone https://github.com/johnhorel/ATMOS_5020_2018
+    git clone https://github.com/johnhorel/ATMOS_5020_2019
 
 or download the zip file.
 
@@ -22,4 +22,4 @@ Alternatively, download the notebook by right clicking the 'raw' button and sele
 
 ---
 
-_Last edited by Brian_
+_Last edited by John H_
