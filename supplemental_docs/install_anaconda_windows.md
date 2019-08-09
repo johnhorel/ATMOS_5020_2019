@@ -5,7 +5,7 @@
 # Install Python on Windows with Anaconda3
 Anaconda is a distribution service that installs and manages Python software and libraries.
 
-Download the Python 3.7 Anaconda3 installer for Windows from https://www.anaconda.com/download/ and run the executable.
+Download the Python 3.7 Anaconda3 installer for Windows from https://www.anaconda.com/distribution/ and run the executable.
 
 ![](./images/step1.png)
 
@@ -21,11 +21,11 @@ Click through the set up windows
 
 ![](./images/step5.png)
 
-I needed this additional option selected, but you may or may not want to. It shouldn't cause any problems unless you have other versions of Python already installed. Installing may take 5+ minutes.
+**NOTE:** I needed this additional option selected, but you may or may not want to. It shouldn't cause any problems unless you have other versions of Python already installed.
 
 ![](./images/step6.png)
 
-If everything worked right, Anaconda3 installed without issues. Click `next` and then `finish`.
+ Installing may take 5+ minutes. If everything worked right, Anaconda3 installed without issues. Click `next` and then `finish`.
 
 After installation, Anaconda will suggest installing VSCode. This is a nice text editor I recommend using. You can install VSCode now or a later time. https://code.visualstudio.com/
 
@@ -63,7 +63,7 @@ For a final check, open Jupyter Lab.
 <br>
 
 ---
-
+In class we used the Anaconda Launcher to install extra packages. There is a way to do this through the command line interface. 
 # How to install additional packages with `conda install`.
 
 Anaconda comes with many popular packages like `numpy`, `matplotlib`, `jupyter`, etc. But there are many other useful packages you may want to install. Anaconda's `conda install` command makes installing other packages easy. 
@@ -117,12 +117,12 @@ After installation, open Python and import the new library to see if it works co
 
 Note: `pygrib` is not available on Windows PC.
 
+
+`Basemap` is currently having issues being installed by Anaconda (not sourcing PROJ_LIB correctly when imported). Maybe it's working now?? This package is being depreciated soon, so it's best to learn `cartopy` instead.
 <!---->
     conda install -c conda-forge basemap
 <!---->
     conda install -c conda-forge basemap-data-hires
-
-Basemap is currently having issues being installed by Anaconda (not sourcing PROJ_LIB correctly when imported). Maybe it's working now?? This package is being depreciated soon, so it's best to learn cartopy.
 
 ---
 
