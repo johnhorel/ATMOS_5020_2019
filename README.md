@@ -43,6 +43,7 @@ Alternatively, download the notebook by right clicking the 'raw' button and sele
     - [Jupyter Notbook Shortcuts](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/jupyter-notebook.pdf)
 - [Markdown Formatting](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/markdown-cheatsheet-online.pdf) (These notes are written in markdown)
 - [Basic `vi` commands](https://www.cs.colostate.edu/helpdocs/vi.html)
+- [Another `vi` cheat sheet](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/vi_cheat_sheet.pdf)
 
 
 ## 💻 Setting Up Your Personal Computer
@@ -52,6 +53,7 @@ Alternatively, download the notebook by right clicking the 'raw' button and sele
 - You can install packages with the Anaconda Navigator tool in the "Environments" tab.
 - Brian's instructions give a few more details to [install Python with Anaconda on your personal computer](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/supplemental_docs/install_anaconda_windows.md)
 - The [Unidata workshop](https://github.com/Unidata/unidata-users-workshop) also has some instructions on how to set up your environment.
+- We also recommend you install a good text editor like VSCode.
 
 ### 🐍 Learn Python 
 The purpose of this class is to introduce you to programming principles. Your programming skill will only improve after hours and hours of practice. If you plan on using Python after this class, it is _highly recommended_ that you learn from other resources. There are several free Python learning courses that will really help you learn Python, like [Codecademy](https://www.codecademy.com/learn/learn-python-3). The [Unidata training](http://unidata.github.io/online-python-training/) is another useful resource.  
