@@ -53,11 +53,7 @@ Alternatively, download the notebook by right clicking the 'raw' button and sele
 - You can install packages with the Anaconda Navigator tool in the "Environments" tab.
 - Brian's instructions give a few more details to [install Python with Anaconda on your personal computer](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/supplemental_docs/install_anaconda_windows.md)
 - The [Unidata workshop](https://github.com/Unidata/unidata-users-workshop) also has some instructions on how to set up your environment.
-- We also recommend you install a good text editor like VSCode.
+- We also recommend you install a good text editor, like VSCode (available for download through the Anaconda Launcher).
 
 ### 🐍 Learn Python 
-The purpose of this class is to introduce you to programming principles. Your programming skill will only improve after hours and hours of practice. If you plan on using Python after this class, it is _highly recommended_ that you learn from other resources. There are several free Python learning courses that will really help you learn Python, like [Codecademy](https://www.codecademy.com/learn/learn-python-3). The [Unidata training](http://unidata.github.io/online-python-training/) is another useful resource.  
-
----
-
-_Last edited by John H_
+The purpose of this class is to introduce you to programming principles. Your programming skill will only improve after hours and hours of practice. If you plan on using Python after this class, it is _highly recommended_ that you learn from other resources, use it for other classes, and use it for a capstone or research project. There are several free Python learning courses that will really help you learn Python, like [Codecademy (version 2 has a lot of free stuff and it's pretty close to version 3)](https://www.codecademy.com/learn/learn-python-3). The [Unidata training](http://unidata.github.io/online-python-training/) is another useful resource. 
