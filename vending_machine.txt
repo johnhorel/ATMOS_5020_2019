@@ -1,0 +1,73 @@
+//
+//  main.cpp
+//  GiveChange
+//
+//  Created by Andrew Woodruff on 8/20/19.
+//  Copyright © 2019 Andrew Woodruff. All rights reserved.
+//
+
+#include <iostream>
+
+int main(int argc, const char * argv[]) {
+    
+    //first, the program asks the user to enter the price (in cents) of the item they bought and the amount they paid. if either of these values is negative, the user receives an error message, and the program is terminated
+    
+    std::cout << "Please enter the item price in cents:\n";
+    int itemPrice;
+    std::cin >> itemPrice;
+    if(itemPrice < 0) {
+        std::cout << "Error: Negative value. You cannot enter a negative number for the item price.\n";
+        return 1;
+    }
+    std::cout << "Please enter the amount paid in cents:\n";
+    int amountPaid;
+    std::cin >> amountPaid;
+    if(amountPaid < 0) {
+        std::cout << "Error: Negative value. You cannot enter a negative number for the amount paid.\n";
+        return 1;
+    }
+    
+    //if the amount paid is less than the item price, the user receives an error message, and the program is terminated
+    
+    if(amountPaid < itemPrice) {
+        std::cout << "Error: Insufficient funds. The item price must be less than or equal to the amount paid.\n";
+        return 1;
+    }
+    
+    //the following code calculates how much change is needed, and which coins to use to give the change. This vending machine is in sore need of additional coins of all types; it only has 2 of each type of coin. If the vending machine doesn't have a sufficient number of coins to return exact change, the user receives an error message indicating such, and the program is terminated.
+    
+    int change = amountPaid - itemPrice;
+    
+    int quarters = change / 25;
+    if(quarters > 2) {
+        quarters = 2;
+    }
+    int remainingChange = change - (quarters * 25);
+    
+    int dimes = remainingChange / 10;
+    if(dimes > 2) {
+        dimes = 2;
+    }
+    remainingChange = remainingChange - (dimes * 10);
+    
+    int nickels = remainingChange / 5;
+    if(nickels > 2) {
+        nickels = 2;
+    }
+    remainingChange = remainingChange - (nickels * 5);
+    
+    int pennies = remainingChange;
+    if(remainingChange > 2) {
+        std::cout << "Error: Out of Coins. We are unable to return change to you at this time.\n";
+        return 1;
+    }
+    
+    //in the event that this coin-poor vending machine can actually give change (good luck to anyone trying to pay with anything higher than a dollar bill), the following code tells the user how their change will be given, specifying the number of each type of coin
+    
+    std::cout << "Change = " << change << " cents\n";
+    std::cout << "\tQuarters: " << quarters << "\n";
+    std::cout << "\tDimes: " << dimes << "\n";
+    std::cout << "\tNickels: " << nickels << "\n";
+    std::cout << "\tPennies: " << pennies << "\n";
+    
+} 
