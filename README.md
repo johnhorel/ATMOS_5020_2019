@@ -36,7 +36,8 @@ Alternatively, download the notebook by right clicking the 'raw' button and sele
 
 # Quick Guides
 - How to log onto CHPC computers: `ssh -Y uXXXXXXX@meteo07.chpc.utah.edu`
-- [Linux Cheatsheet](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/Linux-Cheat-Sheet-David-Relyea.pdf)
+- [Linux Cheatsheet 1](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/Linux_Reference.pdf)
+- [Linux Cheatsheet 2](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/Linux-Cheat-Sheet-David-Relyea.pdf)
 - [Python Cheatsheet](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/python_cheatsheet.pdf)
     - [Numpy Cheatsheet](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/Numpy_Python_Cheat_Sheet.pdf)
     - [Matplotlib Cheatsheet](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/Python_Matplotlib_Cheat_Sheet.pdf)
