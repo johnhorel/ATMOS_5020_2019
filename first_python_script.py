@@ -1,5 +1,11 @@
 # Brian Blaylock
 # September 3, 2019
+# To run this script, download this file and run in the terminal.
+#
+# python first_python_script.py
+#
+
+# This is a comment
 
 print('Hello World!')
 
