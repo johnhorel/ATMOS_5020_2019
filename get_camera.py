@@ -2,7 +2,7 @@
 # Download camera images from the web
 
 import time
-import urllib
+import urllib.request
 
 camera = 'wbbw'
 URL = 'http://meso1.chpc.utah.edu/station_cameras/%s_cam/%s_cam_current.jpg' % (camera, camera)
