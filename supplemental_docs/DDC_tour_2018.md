@@ -1,4 +1,4 @@
-<img src='./images/atmos5020_logo2.png' width=150px align='right' style='padding-left:30px'>
+<img src='../images/atmos5020_logo2.png' width=150px align='right' style='padding-left:30px'>
 
 **November 1, 2018**  
 **ATMOS 5020: Environmental Programming**  
@@ -28,7 +28,7 @@ From the Marriott Library, you can take either the `Red Line TRAX` or `Route 9` 
 - Access front door from Richard's Street.
 - Arrive at ~`1:45 PM`
 
-![](./images/DDC_redline.png)
+![](../images/DDC_redline.png)
 
 #### Route 9: To Central Point Station (about 25 minutes)
 - Depart from South Campus Drive and 1530 E at `1:19 PM`
@@ -46,7 +46,7 @@ The entrance is on the east side of the building. By design, the front door is h
 
 As of last year, this is what the entrance looked like...
 
-<img src='./images/DDC_door.png' style='max-width:450px;width:100%'>
+<img src='../images/DDC_door.png' style='max-width:450px;width:100%'>
 
 
 # Why are we going?
@@ -54,6 +54,6 @@ The Downtown Data Center is where the University of Utah, University Hospital, a
 
 During the tour, you will see the computer you log into for class, see lots of wires and flashing lights, and learn a little about how a supercomputer facility works. Be ready to ask questions and soak in the knowledge!
 
-![](./images/DDC_computers.png)
+![](../images/DDC_computers.png)
 
-![](./images/meteo07.png)
+![](../images/meteo07.png)
