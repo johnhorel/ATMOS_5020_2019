@@ -1,4 +1,12 @@
 
+## Python: A garage of tools.
+Computer programming is like working in a woodshop. After you learn how to use the tools, you can build almost anything you can imagine with the right material. Start with a bird house, and then work your way up to build an heirloom dresser. You will get better with experience.
+
+So far, this class has introduced you to some basic programing concepts and a few Python tools. When used together, you can build something useful. But don't start to think that the Python garage is the only place to program! For some projects, you might need to take your unfinished product to another garage for finishing or to complete an intermediate step. Maybe Python doesn't have any of the right tools and you would be better off using something else. For example, while editing photos is _possible_ with Python, you would be better off working in the Photoshop garage.
+
+![](./images/python_garage.png)
+
+
 ---
 <img src='./images/Anaconda_Logo.png' align=right height=100 style='padding:30px'> 
 
