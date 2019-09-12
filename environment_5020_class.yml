@@ -17,6 +17,6 @@ dependencies:
   - netcdf4
   - basemap             # Note: Basemap is no longer supported.
   - basemap-data-hires  # Note: Basemap is no longer supported.
-  #- pygrib  # Not available on Windows
+  #- pygrib  # GRIB2 reader, *not available on Windows*
   - cfgrib   # Can read GRIB2 on Windows
   - s3fs     # To access GOES satelite images from Amazon Web Services

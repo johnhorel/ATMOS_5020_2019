@@ -1,0 +1,22 @@
+name: class_5020
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - numpy
+  - matplotlib
+  - pylint
+  - jupyter
+  - jupyterlab
+  - pandas
+  - geopandas
+  - scipy
+  - metpy
+  - cartopy
+  - xarray
+  - netcdf4
+  - basemap             # Note: Basemap is no longer supported.
+  - basemap-data-hires  # Note: Basemap is no longer supported.
+  #- pygrib  # GRIB2 reader, *not available on Windows*
+  - cfgrib   # Can read GRIB2 on Windows
+  - s3fs     # To access GOES satelite images from Amazon Web Services
