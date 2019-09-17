@@ -34,6 +34,23 @@ Python Notebooks _should_ render on Github. If they don't, copy the notebook URL
 
 Alternatively, download the notebook by right clicking the 'raw' button and selecting 'save as' and then open the notebook in Jupyter Lab.
 
+
+# Schedule
+
+|Date|Topics|
+|--|--|
+|[Aug 20](./Aug_20_2019.md)| Introduction, Set up computers
+|[Aug 22](./Aug_22_2019.md)| Programming concepts, Linux, Shell scripts
+|[Aug 27](./Aug_27_2019.md)| Shell scripts, working on CHPC machine
+|[Aug 29](./Aug_29_2019.md)| HTML, make your own webpage
+|[Sep 3](./Sept_03_2019.md)| Introduction to Python
+|[Sep 5](./Sept_05_2019.md), [Part 2](./Sept_05_2019.ipynb)| Python in Jupyter Lab: Loops, if statements, etc.
+|[Sep 10](./Sept_10_2019.ipynb)|  Python: Functions, Matplotlib
+|[Sep 12](./Sept_12_CO2_2019.ipynb), [Supplemental](./Sept_12_2019_supplemental.md)| Python: Pandas
+|[Sep 17](./Sept_17_2019.ipynb)| Python: Advanced matplotlib (datetime, 2-D plots, etc.)
+|[Sep 19](./Sept_19_2019.ipynb)| Pyhton: Plotting GOES data -- reading example docs online
+
+
 # Quick Guides
 - How to log onto CHPC computers: `ssh -Y uXXXXXXX@meteo07.chpc.utah.edu`
 - [Linux Cheatsheet 1](https://github.com/johnhorel/ATMOS_5020_2019/blob/master/QuickGuides/Linux_Reference.pdf)
